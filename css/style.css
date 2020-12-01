@@ -1,9 +1,3 @@
-/*
-  Theme Name: BizPage
-  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -12,7 +6,7 @@
 body {
   background: rgb(2, 2, 2);
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Calibri", sans-serif;
 }
 
 a {
@@ -39,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -151,7 +145,7 @@ h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-family: "Poppins", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
 }
@@ -169,32 +163,33 @@ h6 {
 }
 
 .navbar {
-  background: rgba(15, 15, 15, 0.9)  ;
-  padding: 1rem;
+  background: rgba(7,7,7, 0.9)  ;
+  padding: 10px;
 }
 
 
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .navbar-brand {
   color: #fff;
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Calibri", sans-serif;
   line-height: normal;
-  padding-top: 0;
+  padding-top: 1px;
+  padding-left: 5px;
 }
 
 .nav-item .nav-link {
   display: block;
   color: #fff;
-  font-size: var(--menu-font-size);
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-size: 17px;
+  font-family: "Calibri", sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
   padding: 2px 6px;
 }
@@ -337,7 +332,7 @@ h6 {
 #intro h2 {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 48px;
+  font-size: 55px;
   font-weight: 700;
 }
 
@@ -345,7 +340,7 @@ h6 {
   width: 80%;
   margin: 0 auto 30px auto;
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #intro .carousel-fade {
@@ -395,7 +390,7 @@ h6 {
 }
 
 #intro .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -592,7 +587,7 @@ h6 {
   display: block;
   outline: none;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Calibri", sans-serif;
 }
 
 #mobile-nav ul li a:hover {
@@ -661,7 +656,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .section-header h3 {
-  font-size: 32px;
+  font-size: 34px;
   color: rgb(255, 250, 250);
   text-transform: uppercase;
   text-align: center;
@@ -693,6 +688,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header p {
+  font-size: 20px;
   text-align: center;
   padding-bottom: 30px;
   color: rgb(209, 209, 209);
@@ -872,7 +868,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 60px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 #services .title a {
@@ -884,7 +880,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .description {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
@@ -901,7 +897,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #call-to-action h3 {
   color: #fff;
-  font-size: 28px;
+  font-size: 45px;
   font-weight: 700;
 }
 
@@ -910,7 +906,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Calibri", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -988,7 +984,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #facts .counters span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
@@ -998,7 +994,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 14px;
   color: rgb(221, 221, 221);
 }
@@ -1487,7 +1483,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 10px;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   border-left: 4px solid #18d26e;
@@ -1497,7 +1493,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Calibri", sans-serif;
   color: #eee;
 }
 
