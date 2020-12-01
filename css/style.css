@@ -340,7 +340,7 @@ h6 {
   width: 80%;
   margin: 0 auto 30px auto;
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #intro .carousel-fade {
@@ -1026,10 +1026,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 10px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #666666;
+  color: #1a1a1a;
   border-radius: 4px;
   text-transform: uppercase;
-  background: rgb(206, 206, 206);
+  background: rgb(231, 231, 231);
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
